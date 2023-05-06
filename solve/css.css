@@ -75,10 +75,10 @@ h1 {
     font-size: 14px;
     color: var(--gray);
     line-height: 22px;
+    font-family: Montserrat;
 }
 .money-section {
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
     display: flex;
     align-items: center;
 }
