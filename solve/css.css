@@ -30,8 +30,8 @@ body {
 }
 .card {
     background-color: white;
-    width: 485px;
-    height: 395px;
+    width: 600px;
+    height: 450px;
     border-radius: 10px;
     display: flex;
 }
