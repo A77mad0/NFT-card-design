@@ -10,7 +10,7 @@
     --body-color: hsl(217, 54%, 11%);
     --card-color: hsl(216, 50%, 16%);
     --line-color: hsl(215, 32%, 27%);
-    --cyan: hsl(178, 100%, 50%);
+    --cyan: hsl(178, 100%, 30%);
     --blue: hsl(215, 51%, 60%);
     --white: #ffffff;
 }
@@ -31,18 +31,33 @@ body {
     height: 595px;
     border-radius: 10px;
 }
-
 .image-container {
     margin: 25px;
+    position: relative;
+    overflow: hidden;
 }
 .image-container img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
-.image-container img:hover {
-    cursor: pointer;
+.view-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: hsl(178, 100%, 30%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.image-container:hover .view-icon {
+    opacity: 1;
+}
 
-}
+
 .header-container{
     margin-left: 25px;
     margin-bottom: 30px;
