@@ -5,7 +5,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#[The challenge](https://frontendmentor.io/challenges/nft))
+  - [The challenge](https://frontendmentor.io/challenges/nft)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
