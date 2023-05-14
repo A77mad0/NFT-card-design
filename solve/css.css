@@ -10,7 +10,7 @@
     --body-color: hsl(217, 54%, 11%);
     --card-color: hsl(216, 50%, 16%);
     --line-color: hsl(215, 32%, 27%);
-    --cyan: hsla(178, 100%, 50%, 0.514);
+    --cyan: hsla(178, 100%, 50%, 0.432);
     --cyan-text: hsl(178, 100%, 50%);
     --blue: hsl(215, 51%, 60%);
     --white: #ffffff;
@@ -61,6 +61,7 @@ body {
 }
 .view:hover {
     opacity: 1;
+    cursor: pointer;
 }
 .view img {
     width: auto;
