@@ -132,3 +132,24 @@ hr {
         margin: 0 auto;
     }
 }
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+  }
+  
+  #footer a {
+    color: var(--white);
+    text-decoration: underline;
+  }
+  
+  #footer a:hover {
+    color: var(--cyan-text);
+  }
+  
