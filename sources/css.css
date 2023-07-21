@@ -134,7 +134,7 @@ hr {
     }
 }
 #footer {
-    position: fixed;
+    position: absolut;
     bottom: 0;
     left: 0;
     width: 100%;
